@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.pyc
+.DS_Store
+data/raw/*.csv
+data/processed/*.csv
+outputs/models/*.joblib
+outputs/figures/*.png
+outputs/metrics/*.json
+outputs/reports/*.json

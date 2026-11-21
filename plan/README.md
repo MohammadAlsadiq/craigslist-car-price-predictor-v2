@@ -1,0 +1,1 @@
+The fillable, checkbox-enabled plan is `ARTI303_Weekly_Team_Plan.pdf`. Fill names and check tasks in a PDF viewer that supports forms and SAVE the edited PDF. The schedule uses four relative weeks, not instructor-announced dates.

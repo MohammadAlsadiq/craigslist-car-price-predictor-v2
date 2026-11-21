@@ -1,0 +1,22 @@
+paths:
+  raw_data: data/raw/vehicles.csv
+  cleaned_data: data/processed/vehicles_clean.csv
+  model: outputs/models/price_pipeline.joblib
+  metrics: outputs/metrics/metrics.json
+  summary: outputs/reports/data_summary.json
+  chart: outputs/figures/price_distribution.png
+features:
+  numeric: [year, odometer]
+  categorical: [manufacturer, fuel, transmission]
+  target: price
+cleaning:
+  min_price: 500
+  max_price: 150000
+  min_year: 1980
+  max_year: 2027
+  max_odometer: 500000
+training:
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 120
+  max_rows: 100000
